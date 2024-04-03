@@ -1,0 +1,23 @@
+.cardDiv {
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    
+}
+
+.cardDiv img {
+    width: 150px;
+    height: 150px;
+    border-radius:5px ;
+    margin-bottom: 3px;
+
+}
+
+.card h2, h3 {
+    font-family: Arial, sans-serif;
+}

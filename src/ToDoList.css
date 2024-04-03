@@ -1,0 +1,107 @@
+/* * {
+    background-color: #777777;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} */
+
+.container-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.container-todo { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    border: 3px solid #272727;
+    border-radius: 5px;
+    background-color: #777777;
+
+}
+
+.container-todo h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+    border: 2px solid #272727;
+    border-radius: 5px;
+    background-color: #b8b8b8;
+}
+
+.add-button {
+    padding: 3px;
+    font-size: 15px;
+    background-color:rgb(0, 146, 0) ;
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-left: 0.25em;
+    border-radius: 5px;
+    transition: background-color  0.25s ease;
+    cursor: pointer;   
+}
+
+.add-button:hover {
+    background-color:rgb(0, 126, 0) ;
+}
+
+.delete-button {
+    padding: 3px;
+    font-size: 15px;
+    background-color:rgb(179, 14, 14) ;
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-left: 0.25em;
+    border-radius: 5px;
+    transition: background-color 0.25s ease;
+    cursor: pointer;   
+}
+
+.delete-button:hover {
+    background-color:rgb(145, 11, 11) ;
+}
+
+.move-button {
+    padding: 3px;
+    font-size: 15px;
+    background-color:rgb(45, 168, 199) ;
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-left: 0.25em;
+    border-radius: 5px;
+    transition: background-color 0.25s ease;
+    cursor: pointer; 
+}
+
+.move-button:hover {
+    background-color:rgb(40, 144, 170) ;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border:#272727 solid 2px;
+    border-radius: 4px;
+    background-color: #b8b8b8;
+}
+
+.text {
+    flex: 1;
+    padding-left: 10px;
+    background-color: #b8b8b8;
+}
+
+
+
